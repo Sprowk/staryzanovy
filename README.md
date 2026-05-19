@@ -1,6 +1,6 @@
 # Staryzanovy — Akadémia bývania
 
-Statický web pre **staryzanovy.sk** — edukačná stránka o bývaní pre realitného makléra. Žiadna databáza, žiadny e-shop. Iba obsah, dôvera a konzultácia.
+Statický web pre **staryzanovy.com** — edukačná stránka o bývaní pre realitného makléra. Žiadna databáza, žiadny e-shop. Iba obsah, dôvera a konzultácia.
 
 ## O projekte
 
@@ -48,7 +48,7 @@ python3 -m http.server 8080
 1. Vytvor repo `staryzanovy` na GitHube
 2. Pushni tieto súbory do `main` vetvy
 3. V **Settings → Pages** vyber zdroj: `Deploy from a branch` → `main` / `/ (root)`
-4. Pre custom doménu **staryzanovy.sk**:
+4. Pre custom doménu **staryzanovy.com** (Porkbun):
    - V DNS u registrátora pridaj `A` záznamy na GitHub Pages IP-čky:
      ```
      185.199.108.153
@@ -57,7 +57,7 @@ python3 -m http.server 8080
      185.199.111.153
      ```
    - A `CNAME` pre `www` → `<username>.github.io`
-   - Súbor `CNAME` v koreni už obsahuje `staryzanovy.sk`
+   - Súbor `CNAME` v koreni už obsahuje `staryzanovy.com`
 5. Zaškrtni **Enforce HTTPS** keď je certifikát hotový (5–15 min)
 
 ## Dizajn
