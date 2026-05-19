@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Staryzanovy — Starý byt za nový. Realitné sprostredkovanie pre Slovensko.</title>
+<meta name="description" content="Pomáhame vám predať starý byt a kúpiť nový — bez stresu, bez tlaku, s maklérom, ktorý vie. Konzultácia zdarma." />
+<meta name="theme-color" content="#FAF7F0" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Staryzanovy — Starý byt za nový" />
+<meta property="og:description" content="Vymeňte starý byt za nový. Bez stresu. So sprievodcom, ktorý pozná každý detail." />
+<meta property="og:url" content="https://staryzanovy.sk" />
+<meta property="og:locale" content="sk_SK" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Geist:wght@100..900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FAF7F0'/><text x='50' y='72' font-family='Newsreader, serif' font-size='80' font-weight='400' fill='%231F2D24' text-anchor='middle' font-style='italic'>s</text></svg>" />
+</head>
+<body>
+
+<!-- ───────────────── NAV ───────────────── -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="logo">
+      <span class="logo__mark">s</span>
+      <span class="logo__name">Staryzanovy</span>
+    </a>
+    <nav class="nav__links" aria-label="Hlavné menu">
+      <a href="#proces">Ako to funguje</a>
+      <a href="#projekty">Projekty</a>
+      <a href="#vedomosti">Vedomosti</a>
+      <a href="#makler">O mne</a>
+    </nav>
+    <a href="#kontakt" class="nav__cta">
+      Konzultácia
+      <span class="nav__cta-arrow">→</span>
+    </a>
+    <button class="nav__burger" aria-label="Menu" id="burger">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ───────────────── HERO ───────────────── -->
+<section class="hero">
+  <div class="hero__grid">
+    <div class="hero__left">
+      <span class="eyebrow"><span class="eyebrow__dot"></span> Realitné sprostredkovanie · Slovensko, 2026</span>
+
+      <h1 class="hero__h1">
+        <span class="rise"><span>Starý byt</span></span>
+        <span class="rise rise--2"><span><em>za nový.</em></span></span>
+        <span class="rise rise--3"><span>Bez stresu.</span></span>
+      </h1>
+
+      <p class="hero__lead">
+        Najťažšie na výmene bytu nie je nájsť nový. Je to <em>rozhodnúť sa</em>. Sme tu, aby sme vám pomohli pochopiť, čo máte, čo chcete — a ako sa z jedného dostať k druhému bez prekvapení.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#kontakt" class="btn btn--solid">
+          Bezplatná konzultácia
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#projekty" class="btn btn--ghost">Pozrieť projekty</a>
+      </div>
+
+      <ul class="hero__stats">
+        <li>
+          <strong>240+</strong>
+          <span>uzavretých výmen</span>
+        </li>
+        <li>
+          <strong>8</strong>
+          <span>rokov skúseností</span>
+        </li>
+        <li>
+          <strong>5</strong>
+          <span>miest na Slovensku</span>
+        </li>
+        <li>
+          <strong>0 €</strong>
+          <span>poplatok za konzultáciu</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hero__right">
+      <div class="hero__photo">
+        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1200&q=80&auto=format&fit=crop" alt="Svetlý moderný interiér bytu so zeleňou" loading="eager" />
+        <div class="hero__photo-tag">
+          <span class="mono">Aktuálny projekt · 03 /12</span>
+          <strong>Vajnorská — Tehlový dvor</strong>
+          <span>Bratislava · Nové Mesto</span>
+        </div>
+      </div>
+
+      <div class="hero__sticker">
+        <svg viewBox="0 0 120 120" class="hero__sticker-svg" aria-hidden="true">
+          <defs>
+            <path id="circle-path" d="M 60, 60 m -44, 0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0"/>
+          </defs>
+          <text class="hero__sticker-text">
+            <textPath href="#circle-path">STARÝ · ZA · NOVÝ · BYT ·  STARÝ · ZA · NOVÝ · BYT · </textPath>
+          </text>
+          <circle cx="60" cy="60" r="6" fill="currentColor"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span class="mono">Listujte ↓</span>
+  </div>
+</section>
+
+<!-- ───────────────── TRUST BAR ───────────────── -->
+<section class="trust" aria-label="Hodnoty">
+  <div class="trust__inner">
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s8-4 8-12V5l-8-3-8 3v5c0 8 8 12 8 12z" stroke="currentColor" stroke-width="1.4"/></svg>
+      <div>
+        <strong>Bez tlaku</strong>
+        <span>Nikdy vás nik nepretlačí do projektu, ktorý vám nesedí.</span>
+      </div>
+    </div>
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12l4-4 4 4 4-4 4 4 2-2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M3 18h18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <div>
+        <strong>Transparentné ceny</strong>
+        <span>Vidíte všetko — odhad, províziu, dane, poplatky. Žiadne prekvapenia.</span>
+      </div>
+    </div>
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <div>
+        <strong>Jednou rukou</strong>
+        <span>Predaj starého a kúpa nového v jednom procese — vy len podpisujete.</span>
+      </div>
+    </div>
+    <div class="trust__item">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8h16M4 16h10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      <div>
+        <strong>Lokálne zázemie</strong>
+        <span>Bratislava, Banská Bystrica, Košice, Trnava, Žilina — vždy poznáme okolie.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────── PROCESS ───────────────── -->
+<section class="process" id="proces">
+  <div class="section__head">
+    <span class="section__num">01</span>
+    <h2 class="section__title">Ako to <em>funguje</em></h2>
+    <p class="section__intro">Štyri kroky, ktoré urobíme spolu. Vy rozhodujete. My zariadime všetko, čo netreba, aby ste riešili.</p>
+  </div>
+
+  <ol class="steps">
+    <li class="step">
+      <div class="step__media">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80&auto=format&fit=crop" alt="Spoznanie bytu" loading="lazy"/>
+      </div>
+      <div class="step__body">
+        <span class="step__num">01</span>
+        <h3>Spoznáme váš byt</h3>
+        <p>Prídeme k vám. Pozrieme dispozíciu, stav, lokalitu, energetiku. Do 5 dní dostanete <em>poctivý odhad</em> ceny a stratégiu predaja.</p>
+        <span class="step__time">— do 5 dní</span>
+      </div>
+    </li>
+
+    <li class="step step--reverse">
+      <div class="step__media">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&q=80&auto=format&fit=crop" alt="Pochopenie potrieb" loading="lazy"/>
+      </div>
+      <div class="step__body">
+        <span class="step__num">02</span>
+        <h3>Pochopíme, čo hľadáte</h3>
+        <p>Sadneme si na kávu. Zistíme, ako žijete, čo vám chýba, kam chcete. Nehľadáme byt — <em>hľadáme váš ďalší život</em>.</p>
+        <span class="step__time">— 1 stretnutie</span>
+      </div>
+    </li>
+
+    <li class="step">
+      <div class="step__media">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&q=80&auto=format&fit=crop" alt="Predaj a kúpa naraz" loading="lazy"/>
+      </div>
+      <div class="step__body">
+        <span class="step__num">03</span>
+        <h3>Spojíme staré s novým</h3>
+        <p>Predáme jeden byt a kúpime druhý — synchronizovane. Bez prechodného bývania, bez dvoch hypoték naraz. <em>Jednou rukou</em>.</p>
+        <span class="step__time">— priemerne 8–12 týždňov</span>
+      </div>
+    </li>
+
+    <li class="step step--reverse">
+      <div class="step__media">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=900&q=80&auto=format&fit=crop" alt="Odovzdanie kľúčov" loading="lazy"/>
+      </div>
+      <div class="step__body">
+        <span class="step__num">04</span>
+        <h3>Odovzdáme kľúče</h3>
+        <p>Notár, banka, kataster, energetické prepisy — všetko cez nás. Vy dostanete kľúče od nového bytu a <em>jeden e-mail s prehľadom</em>.</p>
+        <span class="step__time">— v jednom dni</span>
+      </div>
+    </li>
+  </ol>
+
+  <div class="process__foot">
+    <a href="#kontakt" class="btn btn--solid btn--lg">
+      Začať prvým krokom
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <p class="mono">Žiadny záväzok. Žiadna zmluva. Iba rozhovor.</p>
+  </div>
+</section>
+
+<!-- ───────────────── PROJECTS ───────────────── -->
+<section class="projects" id="projekty">
+  <div class="section__head section__head--row">
+    <div>
+      <span class="section__num">02</span>
+      <h2 class="section__title">Aktuálne <em>projekty</em></h2>
+    </div>
+    <p class="section__intro">Dvanásť bytov, ktoré práve teraz odporúčam. Každý som videl. O každom poviem aj to, čo nie je v inzeráte.</p>
+  </div>
+
+  <div class="projects__grid">
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=900&q=80&auto=format&fit=crop" alt="Vajnorská" loading="lazy"/>
+        <span class="card__badge badge--live">vo výstavbe</span>
+      </div>
+      <div class="card__body">
+        <span class="mono card__loc">Bratislava · Nové Mesto</span>
+        <h3 class="card__title"><em>Vajnorská</em> Tehlový dvor</h3>
+        <p class="card__dek">Novostavba, 48 bytových jednotiek, tehlová fasáda, vnútorný dvor so stromami.</p>
+        <div class="card__meta">
+          <span>1–4 izby</span>
+          <span>·</span>
+          <span>od 142 000 €</span>
+          <span>·</span>
+          <span>2026–27</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80&auto=format&fit=crop" alt="Štefánikova" loading="lazy"/>
+        <span class="card__badge badge--soon">predpredaj</span>
+      </div>
+      <div class="card__body">
+        <span class="mono card__loc">Bratislava · Staré Mesto</span>
+        <h3 class="card__title"><em>Štefánikova</em> Rezidencia</h3>
+        <p class="card__dek">Kompletná rekonštrukcia historického domu z 1928. 12 jedinečných bytov s pôvodnými prvkami.</p>
+        <div class="card__meta">
+          <span>2–5 izieb</span>
+          <span>·</span>
+          <span>od 268 000 €</span>
+          <span>·</span>
+          <span>2026</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&q=80&auto=format&fit=crop" alt="Horná" loading="lazy"/>
+        <span class="card__badge badge--soon">predpredaj</span>
+      </div>
+      <div class="card__body">
+        <span class="mono card__loc">Banská Bystrica · centrum</span>
+        <h3 class="card__title"><em>Horná</em> Heights</h3>
+        <p class="card__dek">22-bytová novostavba s výhľadom na Urpín. Energetická trieda A0, vlastné parkovanie pod domom.</p>
+        <div class="card__meta">
+          <span>2–4 izby</span>
+          <span>·</span>
+          <span>od 118 000 €</span>
+          <span>·</span>
+          <span>2027</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&q=80&auto=format&fit=crop" alt="Mlynská" loading="lazy"/>
+        <span class="card__badge badge--live">vo výstavbe</span>
+      </div>
+      <div class="card__body">
+        <span class="mono card__loc">Košice · Juh</span>
+        <h3 class="card__title"><em>Mlynská</em> Stará Tehelňa</h3>
+        <p class="card__dek">Konverzia bývalej tehelne na 31 lofts. Vysoké stropy 3.6 m, originálne tehlové steny.</p>
+        <div class="card__meta">
+          <span>1–3 izby</span>
+          <span>·</span>
+          <span>od 96 000 €</span>
+          <span>·</span>
+          <span>2026–28</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=900&q=80&auto=format&fit=crop" alt="Hlavná" loading="lazy"/>
+        <span class="card__badge badge--last">posledné jednotky</span>
+      </div>
+      <div class="card__body">
+        <span class="mono card__loc">Trnava · centrum</span>
+        <h3 class="card__title"><em>Hlavná</em> Mestský dom</h3>
+        <p class="card__dek">Mestský dom z 19. storočia s 8 prerekonštruovanými bytmi. Pôvodné drevené trámy.</p>
+        <div class="card__meta">
+          <span>2–4 izby</span>
+          <span>·</span>
+          <span>od 184 000 €</span>
+          <span>·</span>
+          <span>kolaudované</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=900&q=80&auto=format&fit=crop" alt="Sasinkova" loading="lazy"/>
+        <span class="card__badge badge--plan">v príprave</span>
+      </div>
+      <div class="card__body">
+        <span class="mono card__loc">Žilina · Bôrik</span>
+        <h3 class="card__title"><em>Sasinkova</em> Park Residence</h3>
+        <p class="card__dek">64 bytov v zelenom svahu nad mestom. Spoločné záhrady, herňa pre deti, sauny.</p>
+        <div class="card__meta">
+          <span>1–5 izieb</span>
+          <span>·</span>
+          <span>od 108 000 €</span>
+          <span>·</span>
+          <span>2027–28</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="projects__foot">
+    <a href="#kontakt" class="link link--arrow">
+      Pýtate sa na konkrétny projekt? Napíšte mi
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ───────────────── BIG QUOTE ───────────────── -->
+<section class="quote">
+  <blockquote>
+    <p>
+      Najdrahší byt, ktorý si kúpite, je ten, ktorému <em>nerozumiete</em>. Sme tu, aby ste si rozumeli s tým, čo idete podpísať.
+    </p>
+    <footer>
+      <span class="mono">— princíp Staryzanovy</span>
+    </footer>
+  </blockquote>
+</section>
+
+<!-- ───────────────── BROKER / ABOUT ───────────────── -->
+<section class="broker" id="makler">
+  <div class="broker__inner">
+    <div class="broker__photo">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&auto=format&fit=crop" alt="Realitný maklér" loading="lazy"/>
+      <span class="broker__photo-tag mono">Foto · 2026</span>
+    </div>
+
+    <div class="broker__body">
+      <span class="section__num">03</span>
+      <h2 class="section__title">Som <em>maklér</em>.<br/>Ale najprv <em>poradca</em>.</h2>
+
+      <p class="broker__lead">
+        Volám sa <strong>[Meno Priezvisko]</strong>. Realitnému trhu sa venujem 8 rokov, mám licenciu č. <strong>RK-XXXX</strong> a v Bratislave, Banskej Bystrici a Košiciach mi cez ruky prešlo 240+ výmen bytov.
+      </p>
+
+      <p class="broker__text">
+        Začínal som ako každý — predával som, čo mi prišlo. Po dvoch rokoch som zistil, že najlepšie obchody nie sú tie, kde klient niečo kúpi rýchlo. Sú to tie, kde sa ku mne <em>vracia o 5 rokov</em>, lebo predáva, čo som mu kedysi pomohol vybrať — a chce odo mňa to ďalšie.
+      </p>
+
+      <p class="broker__text">
+        Preto Staryzanovy. Žiadne tlačenie. Žiadne &bdquo;táto akcia končí v piatok&ldquo;. Iba poctivé odpovede a projekty, za ktoré sa nemusím hanbiť.
+      </p>
+
+      <div class="broker__signature">
+        <svg viewBox="0 0 200 60" class="broker__sign" aria-hidden="true">
+          <path d="M 10 40 Q 30 10, 50 30 T 90 25 Q 110 35, 130 20 T 170 30 Q 180 40, 190 25" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <span class="mono">— váš sprievodca</span>
+      </div>
+
+      <div class="broker__credentials">
+        <div>
+          <span class="mono">Licencia</span>
+          <strong>RK-XXXX</strong>
+        </div>
+        <div>
+          <span class="mono">Členstvo</span>
+          <strong>NARKS · CEPI</strong>
+        </div>
+        <div>
+          <span class="mono">Rating klientov</span>
+          <strong>4.96 / 5 ★</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────── KNOWLEDGE / ARTICLES ───────────────── -->
+<section class="knowledge" id="vedomosti">
+  <div class="section__head section__head--row">
+    <div>
+      <span class="section__num">04</span>
+      <h2 class="section__title">Vedomosti</h2>
+    </div>
+    <p class="section__intro">Pred kúpou si nemusíte prečítať knihu. Stačí týchto šesť článkov.</p>
+  </div>
+
+  <div class="knowledge__grid">
+
+    <article class="post post--lg">
+      <a href="#" class="post__link">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80&auto=format&fit=crop" alt="Pôdorys bytu" loading="lazy"/>
+        </div>
+        <div class="post__body">
+          <span class="mono post__tag">Dispozícia · 11 min</span>
+          <h3>Ako čítať pôdorys, kým doňho vstúpite.</h3>
+          <p>Plán bytu povie viac než tri obhliadky. Naučte sa, čo sledovať — od orientácie okien po šírku chodby.</p>
+          <span class="post__cta">Čítať článok →</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#" class="post__link">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=900&q=80&auto=format&fit=crop" alt="Materiály" loading="lazy"/>
+        </div>
+        <div class="post__body">
+          <span class="mono post__tag">Materiály · 8 min</span>
+          <h3>Plná tehla vs. siporex: 50-ročný experiment.</h3>
+          <p>Čo prežilo dve generácie a čo opadne pri prvej rekonštrukcii.</p>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#" class="post__link">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&q=80&auto=format&fit=crop" alt="Svetlo" loading="lazy"/>
+        </div>
+        <div class="post__body">
+          <span class="mono post__tag">Svetlo · 6 min</span>
+          <h3>Prečo orientácia okien rozhoduje viac než dispozícia.</h3>
+          <p>Ako sa svetlo v tom istom okne mení cez rok — a čo to znamená pre vaše ráno.</p>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#" class="post__link">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=900&q=80&auto=format&fit=crop" alt="Hodnota" loading="lazy"/>
+        </div>
+        <div class="post__body">
+          <span class="mono post__tag">Hodnota · 10 min</span>
+          <h3>9 vecí, ktoré držia cenu bytu. A jedna, ktorá ju zničí.</h3>
+          <p>Dáta z 240 výmen, ktoré som spravil. Lokalita je len jeden faktor.</p>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#" class="post__link">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=900&q=80&auto=format&fit=crop" alt="Energetika" loading="lazy"/>
+        </div>
+        <div class="post__body">
+          <span class="mono post__tag">Energetika · 7 min</span>
+          <h3>Trieda A nestačí. Ako čítať certifikát naozaj.</h3>
+          <p>Číslo na papieri vs. účty v decembri. Tri otázky pred kúpou.</p>
+        </div>
+      </a>
+    </article>
+
+    <article class="post">
+      <a href="#" class="post__link">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=900&q=80&auto=format&fit=crop" alt="História" loading="lazy"/>
+        </div>
+        <div class="post__body">
+          <span class="mono post__tag">História · 9 min</span>
+          <h3>Funkcionalizmus stále funguje. Prečo má byt z 30. rokov hodnotu.</h3>
+          <p>Proporcie a materiály, ktoré medzivojnoví architekti vedeli a my sme zabudli.</p>
+        </div>
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<!-- ───────────────── TESTIMONIALS ───────────────── -->
+<section class="testimonials" aria-label="Referencie">
+  <div class="section__head section__head--center">
+    <span class="section__num">05</span>
+    <h2 class="section__title">Klienti, ktorí <em>vymenili</em></h2>
+  </div>
+
+  <div class="testimonials__grid">
+    <figure class="testimonial">
+      <blockquote>
+        &bdquo;Predali starú trojizbovku v Petržalke a kúpili nový byt v Novom Meste za 11 týždňov. Ani jeden papier som nemusel sám čítať — všetko bolo vysvetlené dopredu.&ldquo;
+      </blockquote>
+      <figcaption>
+        <strong>Mário H.</strong>
+        <span class="mono">Bratislava · výmena 2024</span>
+      </figcaption>
+    </figure>
+
+    <figure class="testimonial">
+      <blockquote>
+        &bdquo;Najprv mi povedal, že byt, ktorý sme si vyhliadli, nestojí za peniaze. Stratil províziu, ale získal nás. O dva mesiace nám našiel lepší — a lacnejší.&ldquo;
+      </blockquote>
+      <figcaption>
+        <strong>Lucia & Peter K.</strong>
+        <span class="mono">Banská Bystrica · 2023</span>
+      </figcaption>
+    </figure>
+
+    <figure class="testimonial">
+      <blockquote>
+        &bdquo;Žiadny realitkár ma takto nepočúval. Vedel, že mi nejde o m² ale o ranné svetlo v kuchyni. Našiel ho.&ldquo;
+      </blockquote>
+      <figcaption>
+        <strong>Anna D.</strong>
+        <span class="mono">Košice · 2025</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ───────────────── FAQ ───────────────── -->
+<section class="faq">
+  <div class="section__head">
+    <span class="section__num">06</span>
+    <h2 class="section__title">Najčastejšie <em>otázky</em></h2>
+  </div>
+
+  <div class="faq__list">
+    <details class="faq__item" open>
+      <summary>
+        <span>Aká je vaša provízia?</span>
+        <span class="faq__icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="faq__body">
+        <p>Štandardne 2–3 % z predajnej ceny starého bytu, hradí ju predávajúci. Kúpu nového bytu pre vás <em>ja neúčtujem</em> — províziu mi platí developer. Vždy poviem dopredu, aká je presná suma.</p>
+      </div>
+    </details>
+
+    <details class="faq__item">
+      <summary>
+        <span>Čo ak môj byt nikto nekúpi včas?</span>
+        <span class="faq__icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="faq__body">
+        <p>Pred výmenou robíme realistický odhad ceny a časového rámca. Ak je trh pomalý, navrhujem premosťovacie riešenia — od časovo viazaných záloh u developera po prechodný nájom. Nikdy vás nenechám medzi dvomi bytmi.</p>
+      </div>
+    </details>
+
+    <details class="faq__item">
+      <summary>
+        <span>Pomáhate aj s hypotékou?</span>
+        <span class="faq__icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="faq__body">
+        <p>Spolupracujem s nezávislou hypotekárnou poradkyňou, ktorú odporúčam svojim klientom 5 rokov. Nedostávam od nej províziu — preto je odporúčanie poctivé.</p>
+      </div>
+    </details>
+
+    <details class="faq__item">
+      <summary>
+        <span>Som len v Bratislave?</span>
+        <span class="faq__icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="faq__body">
+        <p>Nie. Aktívne pracujem v Bratislave, Trnave, Banskej Bystrici, Žiline a Košiciach. V iných mestách viem odporučiť kolegu, ktorému dôverujem.</p>
+      </div>
+    </details>
+
+    <details class="faq__item">
+      <summary>
+        <span>Ako začať?</span>
+        <span class="faq__icon" aria-hidden="true">+</span>
+      </summary>
+      <div class="faq__body">
+        <p>Napíšete mi e-mail alebo SMS. Do 24 hodín si dohodneme krátky telefonát alebo kávu. Ak po stretnutí budete chcieť pokračovať, podpíšeme jednoduchú dohodu. Ak nie, ostávame priateľmi.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- ───────────────── CONTACT ───────────────── -->
+<section class="contact" id="kontakt">
+  <div class="contact__inner">
+    <div class="contact__left">
+      <span class="section__num">07</span>
+      <h2 class="section__title">Napíšte mi.<br/><em>Ozvem sa do 24 hodín.</em></h2>
+      <p class="contact__lead">
+        Konzultácia je zdarma a k ničomu vás nezaväzuje. Pýtajte sa na byt, projekt, postup, peniaze — na čokoľvek. Odpovedám osobne, nie cez asistentku.
+      </p>
+
+      <ul class="contact__lines">
+        <li>
+          <span class="mono">E-mail</span>
+          <a href="mailto:ahoj@staryzanovy.sk">ahoj@staryzanovy.sk</a>
+        </li>
+        <li>
+          <span class="mono">Telefón</span>
+          <a href="tel:+421900000000">+421 900 000 000</a>
+        </li>
+        <li>
+          <span class="mono">WhatsApp</span>
+          <a href="#">+421 900 000 000</a>
+        </li>
+        <li>
+          <span class="mono">Stretnutie</span>
+          <span>Po dohode — Bratislava · BB · KE · TT · ZA</span>
+        </li>
+      </ul>
+
+      <p class="contact__note mono">
+        Žiadny CRM. Žiadny newsletter. Vaša správa príde do mojej osobnej schránky.
+      </p>
+    </div>
+
+    <form class="contact__form" onsubmit="event.preventDefault(); this.classList.add('is-sent');">
+      <div class="field">
+        <label for="meno">Vaše meno</label>
+        <input type="text" id="meno" name="meno" placeholder="Ján Novák" required/>
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="jan@email.sk" required/>
+        </div>
+        <div class="field">
+          <label for="tel">Telefón</label>
+          <input type="tel" id="tel" name="tel" placeholder="+421"/>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="typ">Čo vás zaujíma</label>
+        <select id="typ" name="typ">
+          <option>Výmena starého bytu za nový</option>
+          <option>Predaj bytu</option>
+          <option>Kúpa nového bytu</option>
+          <option>Iba konzultácia / odhad ceny</option>
+          <option>Konkrétny projekt zo zoznamu</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="sprava">Správa</label>
+        <textarea id="sprava" name="sprava" rows="4" placeholder="Napíšte, čo riešite. Stručne stačí."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn--solid btn--full btn--lg">
+        Odoslať
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+
+      <p class="contact__form-note mono">Odoslaním súhlasíte so spracovaním osobných údajov pre účely konzultácie.</p>
+
+      <div class="contact__sent">
+        <h3>Ďakujem.</h3>
+        <p>Vaša správa je u mňa. Ozvem sa do 24 hodín — väčšinou skôr.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ───────────────── FOOTER ───────────────── -->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <span class="footer__mark">s</span>
+      <h3>Staryzanovy</h3>
+      <p>Starý byt za nový.<br/>Realitné sprostredkovanie so srdcom.</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <div>
+        <span class="mono">Obsah</span>
+        <ul>
+          <li><a href="#proces">Ako to funguje</a></li>
+          <li><a href="#projekty">Projekty</a></li>
+          <li><a href="#vedomosti">Vedomosti</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="mono">Maklér</span>
+        <ul>
+          <li><a href="#makler">O mne</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="mailto:ahoj@staryzanovy.sk">E-mail</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="mono">Sledujte</span>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="footer__big" aria-hidden="true">
+    <span>STARYZANOVY</span>
+  </div>
+
+  <div class="footer__bottom">
+    <span class="mono">© 2026 Staryzanovy · Licencia RK-XXXX</span>
+    <span class="mono"><a href="#">Ochrana osobných údajov</a> · <a href="#">Cookies</a></span>
+    <span class="mono"><a href="#top">↑ Späť hore</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

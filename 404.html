@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>404 — Staryzanovy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Geist:wght@100..900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  .e404 {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 80px 24px;
+  }
+  .e404__num {
+    font-family: var(--serif);
+    font-size: clamp(140px, 26vw, 320px);
+    line-height: 0.85;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--gold);
+    font-variation-settings: 'opsz' 72;
+    letter-spacing: -0.04em;
+  }
+  .e404__title {
+    font-family: var(--serif);
+    font-size: clamp(28px, 4vw, 48px);
+    font-weight: 380;
+    margin: 12px 0 16px;
+    letter-spacing: -0.025em;
+    font-variation-settings: 'opsz' 48;
+  }
+  .e404__title em { color: var(--green); }
+  .e404__dek {
+    font-family: var(--serif);
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 44ch;
+    margin: 0 auto 32px;
+    line-height: 1.45;
+    font-variation-settings: 'opsz' 24;
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a href="/" class="logo">
+      <span class="logo__mark">s</span>
+      <span class="logo__name">Staryzanovy</span>
+    </a>
+    <span class="mono" style="margin-left:auto;">Chyba · 404</span>
+  </div>
+</header>
+
+<main class="e404">
+  <div>
+    <div class="e404__num">404</div>
+    <h1 class="e404__title">Táto adresa <em>neexistuje.</em></h1>
+    <p class="e404__dek">Možno bola presťahovaná do iného bytu. Možno nikdy nebola dokončená. Vráťme sa späť na úvod.</p>
+    <a href="/" class="btn btn--solid btn--lg">
+      Späť na úvod
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 12h16M14 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"/></svg>
+    </a>
+  </div>
+</main>
+
+</body>
+</html>
